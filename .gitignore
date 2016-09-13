@@ -6,3 +6,10 @@
 
 # Unignore all dirs
 !*/
+
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.s19
