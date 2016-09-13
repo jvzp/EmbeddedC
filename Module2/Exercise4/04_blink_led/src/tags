@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AHBPrescTable	low_level_init.c	/^__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+BusFault_Handler	exceptions.c	/^void BusFault_Handler(void)$/;"	f
+CopyDataInit	startup.s	/^CopyDataInit:$/;"	l
+DebugMon_Handler	exceptions.c	/^void DebugMon_Handler(void)$/;"	f
+Default_Handler	startup.s	/^Default_Handler:$/;"	l
+FillZerobss	startup.s	/^FillZerobss:$/;"	l
+HardFault_Handler	exceptions.c	/^void HardFault_Handler(void)$/;"	f
+Infinite_Loop	startup.s	/^Infinite_Loop:$/;"	l
+LoopCopyDataInit	startup.s	/^LoopCopyDataInit:$/;"	l
+LoopFillZerobss	startup.s	/^LoopFillZerobss:$/;"	l
+MemManage_Handler	exceptions.c	/^void MemManage_Handler(void)$/;"	f
+NMI_Handler	exceptions.c	/^void NMI_Handler(void)$/;"	f
+PLL_M	low_level_init.c	87;"	d	file:
+PLL_N	low_level_init.c	88;"	d	file:
+PLL_P	low_level_init.c	91;"	d	file:
+PLL_Q	low_level_init.c	94;"	d	file:
+PendSV_Handler	exceptions.c	/^void PendSV_Handler(void)$/;"	f
+Reset_Handler	startup.s	/^Reset_Handler:  $/;"	l
+SVC_Handler	exceptions.c	/^void SVC_Handler(void)$/;"	f
+SetSysClock	low_level_init.c	/^static void SetSysClock(void)$/;"	f	file:
+SysTick_Handler	exceptions.c	/^void SysTick_Handler(void)$/;"	f
+SystemCoreClock	low_level_init.c	/^  uint32_t SystemCoreClock = 168000000;$/;"	v
+UsageFault_Handler	exceptions.c	/^void UsageFault_Handler(void)$/;"	f
+VECT_TAB_OFFSET	low_level_init.c	84;"	d	file:
+_EXCEPTIONS_H_	exceptions.h	17;"	d
+_MAIN_H_	main.h	18;"	d
+__stm32_tick	exceptions.h	/^uint32_t __stm32_tick;$/;"	v
+delay	main.c	/^static void delay(void)$/;"	f	file:
+g_pfnVectors	startup.s	/^g_pfnVectors:$/;"	l
+low_level_init	low_level_init.c	/^void low_level_init(void)$/;"	f
+main	main.c	/^void main(void)$/;"	f
